@@ -19,8 +19,8 @@ gcode:
     G28
     Z_TILT_ADJUST
     G28 X Y
-    G0 X180 F4000 # for 300mm build
-    G0 X260 F4000 # for 300mm build
+    G0 X180 F6000 # for 300mm build
+    G0 X260 F6000 # for 300mm build
     G28 Z
     G0 X150 Y150 Z30 F3600
 ```
